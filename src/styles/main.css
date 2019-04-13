@@ -1,0 +1,22 @@
+@font-face{
+    src: url("fonts/product-sans-regular.ttf");
+    font-family: "Product Sans";
+}
+@font-face{
+    src: url("fonts/product-sans-bold.ttf");
+    font-family: "Product Sans Bold";
+}
+
+div {
+    border-radius: 4px;
+}
+
+.main-font{
+    font-family: "Product Sans", sans-serif !important;
+}
+.main-font.b, .main-font .b , ul, li, a, h3, h2, h1, h4 {
+    font-family: "Product Sans Bold", sans-serif !important;
+}
+.uk-button {
+    border-radius: 4px;
+}
